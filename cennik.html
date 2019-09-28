@@ -90,61 +90,113 @@
 	
 	</header>
 	
-	
-	<main>
-		
-		<article>
-		
-			<div class="container">
-			
-				<div class="row">
-				
-					<aside class="col-12 text-center my-5">
+
 					
 					
 						
 					
 <!-- Image slider --> 
 
-		<div class ="color_carousel">
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	</ol>
-	 <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100 mb-5" src="img/jopi.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h4><b>JOPI Hostel Katowice Centrum</b></h4>
-                <p><b>Tanie, zadbane pokoje. Czyste łazienki i wyposażona kuchnia.</b></p>
-            </div>
-        </div>
-		<div class="carousel-item">
-            <img class="d-block w-100  mb-5" src="img/lozko.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100  mb-5" src="img/salon.jpg" alt="Third slide">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-</div>
-						
+
+	<!-- ROZPOCZECIE STRONY -->
+
+	
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-push-5">
+						<div class="booking-cta">
+							<h1>JOPI Hostel</h1>
+							<h3>Hostel który zbliża</h3>
+							<p>Jesteśmy hostelem jakiego szukasz! Oferujemy najtańsze pokoje w Katowicach. Jopi hostel jest usytuowany odległości 500 metrów od dworca kolejowego. To powoduje, że nasz obiekt jest położony w najlepiej ocenianej dzielnicy w Katowicach.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-pull-7">
+						<div class="booking-form">
+							<form>
+								<div class="form-group">
+									<span class="form-label">Imie i nazwisko</span>
+									<input class="form-control" type="text" placeholder="Podaj swoje imie i nazwisko">
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Data przyjazdu</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Data wyjazdu</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="form-group">
+											<span class="form-label">Pokój</span>
+											<select class="form-control">
+												<option>Pokój dwuosobowy ze wspólną łazienką</option>
+												<option>Pokój czteroosobowy ze wspólną łazienką</option>
+												<option>Łóżko pojedyncze w koedukacyjnym pokoju wieloosobowym</option>
+												<option>Pokój wieloosobowy (9 osób dorosłych)</option>
+												<option>Pokój sześcioosobowy</option>
+												<option>Pokój dwuosobowy z prywatną łazienką poza pokojem</option>
+												<option>Pokój trzyosobowy ze wspólną łazienką</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									
+								</div>
+								<div class="row">					
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Dzieci</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Dorośli</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Wyślij zapytanie o dostępność</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 							
 				
 					
-					</aside>
-</div>
-</div>
 
 
 
@@ -160,32 +212,22 @@
 	
 
 
-
-<div class = "container my-5">
-
-
-<p class = "text-dark mx-3 d-inline">Wybierz datę rozpoczynającą Twój pobyt w hostelu:</p>
-	
-	<label for="start"></label>
-
-<input type="date" id="start" name="trip-start"
-       value="2019-09-19"
-       min="2019-09-19" max="2020-12-31">
-	   
-	</div>
-
- <div class = "container my-5">
- 
-	   <p class = "text-dark mx-3 d-inline ">Wybierz datę kończącą Twój pobyt w hostelu :</p>
-	
-	
-	<label for="koniec"></label>
-
-<input type="date" id="koniec" name="trip-end"
-       value="2019-09-19"
-       min="2019-09-19" max="2020-12-31">
-	   
-</div>
+					<div class="dostepnosc my-5">
+								<div class="  row text-dark ">
+									<div class="col-sm-5">
+										<div class="form-group ml-5">
+											<span class="form-label">Data planowanego przyjazdu</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+									<div class="col-sm-5">
+										<div class="form-group ml-5">
+											<span class="form-label">Data planowanego wyjazdu</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+								</div>
+					</div>
 	   
 	   
 
@@ -196,7 +238,7 @@
 
 	<header>
 						
-		<h1 class="h2 font-weight-bold text-uppercase ml-0 py-2 text-center  bg-jopi text-white ">Wybierz interesujący Cię pokój</h1>
+		<h1 class="h2 font-weight-bold text-uppercase ml-0 py-2 text-center bg-jopi text-white ">Wybierz interesujący Cię pokój</h1>
 							
 	</header>
 	
@@ -263,45 +305,33 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- Footer -->
 			
 			
-			<footer class = "mt-6 mb-6">
+			<footer class = " mb-6">
 			<a id = "stopka"></a>
 			<div class = "container-fluid padding">
 			<div class = "row text-center">
-				<div class = "col-md-4">
+				<div class = "col-md-3 ">
 				<hr class = "light">
 					<h5> Informacje </h5>
 					<hr class = "light">
 					<p> Numer telefonu: 32 204 34 32 </p>
 					<p> E-mail: jopihostel@jopihostel.pl </p>
-					<p> Adres: Plebiscytowa 23,	40-035 Katowice</p>
 				</div>
-				<div class = "col-md-4">
+				<div class = "col-md-3">
+					<hr class = "light">
+					<h5> Adres </h5>
+					<hr class = "light">
+					<p> Plebiscytowa 23, 40-035 Katowice </p>
+				</div>
+				<div class = "col-md-3">
 					<hr class = "light">
 					<h5> Zameldowanie </h5>
 					<hr class = "light">
 					<p> Od godziny 14:00 </p>
 				</div>
-				<div class = "col-md-4">
+				<div class = "col-md-3">
 					<hr class = "light">
 					<h5> Wymeldowanie </h5>
 					<hr class = "light">
