@@ -119,8 +119,15 @@ footer
 {
 	background-color: #3f3f3f;
 	color: #d5d5d5;
+	font-size: 15px;
 	
 }
+
+footer h5
+{
+	font-size: 15px;
+}
+
 hr.light
 {
 	
@@ -132,11 +139,7 @@ hr.light
 	margin-bottom: 1rem;
 }
 
-footer.img
-{
-	width: 5px;
-	height:5px;
-}
+
 .rozmiar-otoczenia
 {
 	width:400px	 !important;
@@ -220,7 +223,7 @@ height:0;
 
 .section .section-center {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 0;
 	right: 0;
 	-webkit-transform: translateY(-50%);
@@ -377,6 +380,27 @@ height:0;
 
 
 
+
+
+
+@media (max-width: 575px)
+{
+	main
+	{
+		margin-top: 30%;
+	}
+
+	
+	
+	@media (max-width: 575px)
+{
+.carousel-item img
+	{
+	width: 400px;
+	height: 300px;
+	
+	}
+}
 
 
 
