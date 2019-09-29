@@ -387,7 +387,7 @@ height:0;
 {
 	main
 	{
-		margin-top: 50%;
+		margin-top: 80%;
 	}
 
 	
@@ -408,7 +408,7 @@ height:0;
 	.section .section-center 
 	{
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 0;
 	right: 0;
 	-webkit-transform: translateY(-50%);
