@@ -441,33 +441,43 @@
 			
 			
 			
-    <!--Opis-->
-    <p class="text-center w-responsive mx-auto mb-2 h4 text-justify">Jeżeli masz jakieś pytania dotyczące pobytu w naszym hostelu napisz do nas. Tak szybko jak to możliwe rozwiejemy Twoje wątpliwości.</p>
-	
+   <!--Opis-->
+    <p class="text-center w-responsive mx-auto mb-5 h4 text-justify">Jeżeli masz jakieś pytania dotyczące pobytu w naszym hostelu napisz do nas. Tak szybko jak to możliwe rozwiejemy Twoje wątpliwości.</p>
+		
 		</div>
 
-
-<div class="row border border-info rounded ml-5 mr-2 my-3">
+<div class="row  ml-5 mr-2 mb-3 formularz">
 	
 
         <!--Grid column-->
+		
         <div class="col-md-12 mb-md-0 mb-5 wpis">
             <form id="contact-form" name="contact-form" action="hostel.php" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
 
-				
+					<hr class = "mb-5" style="background-color:#6495ED; height: 5px; width: 95%">
+
                     <!--Imie i nazwisko-->
+				
+					
+					
+
                     <div class="col-md-6">
+					
                         <div class="md-form mb-0">
+						
                             <input type="text" id="imie" name="imie" class="form-control">
+						
+							
                             <label for="imie" class="">Imie i nazwisko</label>
+
                         </div>
                     </div>
 
                     <!--Email-->
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control">
                             <label for="email" class="">Adres e-mail</label>
@@ -508,7 +518,8 @@
 
             <div class="text-center ">
                 <a class="btn btn-primary text-light btn-lg mb-5" onclick="document.getElementById('contact-form').submit();">Wyślij</a>
-
+				
+	<hr style="background-color:#6495ED; height: 5px ;width: 95%">
             </div>
             <div class="status"></div>
         </div>
