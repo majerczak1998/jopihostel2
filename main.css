@@ -223,7 +223,7 @@ height:0;
 
 .section .section-center {
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	left: 0;
 	right: 0;
 	-webkit-transform: translateY(-50%);
@@ -232,7 +232,7 @@ height:0;
 
 #booking {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url("img/Katowice 2.jpg");
+	background-image: url("Katowice 2.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -387,7 +387,7 @@ height:0;
 {
 	main
 	{
-		margin-top: 30%;
+		margin-top: 50%;
 	}
 
 	
@@ -402,6 +402,19 @@ height:0;
 	}
 }
 
+
+@media (max-width: 575px)
+{
+	.section .section-center 
+	{
+	position: absolute;
+	top: 70%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	}
+}
 
 
 
