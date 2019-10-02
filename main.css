@@ -96,7 +96,8 @@ h1
 		margin: 40px 20px;
 		text-align: left;
 		font-size: 15px;
-	}
+		text-align: center
+		}
 	
 	.float-left, .float-right
 	{
@@ -339,19 +340,20 @@ height:0;
 }
 
 .booking-cta {
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-bottom: 30px;
+	
 }
 
 .booking-cta h1 {
-	font-size: 52px;
+	font-size: 56px;
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
 }
 
 .booking-cta p {
-	font-size: 16px;
+	font-size: 20px;
 	color: rgba(255, 255, 255, 0.8);
 }
 
@@ -387,7 +389,7 @@ height:0;
 {
 	main
 	{
-		margin-top: 98%;
+		margin-top: 75%;
 	}
 
 	
@@ -408,13 +410,27 @@ height:0;
 	.section .section-center 
 	{
 	position: absolute;
-	top: 82%;
+	top: 77%;
 	left: 0;
 	right: 0;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	}
 }
+
+@media (max-width: 575px)
+{
+	form
+	{
+		
+		justify-content: center;
+		align-items: center;
+		
+		
+	}
+}
+
+
 
 
 
